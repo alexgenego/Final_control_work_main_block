@@ -56,21 +56,7 @@ void filterString(int[,] mass)
                 Console.Write(k+" ");
             }
             Console.WriteLine();
-//    int[] massiv1zad = new int[mass.GetLength(0)];
-//             for (int i=0 ;i<massiv1zad.Length; i++)
-//             {
-//                 for (int j=0;j<mass.GetLength(1);j++)
-//                     {
-//                         if(mass[i,j]<1000)
-//                         massiv1zad[i]++;
-//                     }
-//             }
-//             foreach(var k in massiv1zad)
-//             {
-//                 Console.Write(k+" ");
-//             }
-//             Console.WriteLine();
-    
+
 }
 
 
@@ -85,5 +71,3 @@ int stop = int.Parse(Console.ReadLine()!);
 int[,] mass = MassNums(row_num, column_num, start, stop);
 Print(mass);
 filterString(mass);
-//Print(massiv2);
-
